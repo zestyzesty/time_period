@@ -1,0 +1,2 @@
+inherit_from:
+  - "https://raw.githubusercontent.com/zestyzesty/zesty-styleguide/master/ruby/.ruby-style.yml"
