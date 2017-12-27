@@ -2,7 +2,8 @@ require "bundler/setup"
 require "pry"
 require "timecop"
 require "time_period"
-require_relative "./shared_examples"
+require_relative "./shared_examples/time_period"
+require_relative "./shared_examples/rolling_time_period"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

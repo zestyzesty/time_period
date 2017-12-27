@@ -1,5 +1,3 @@
-require "spec_helper"
-
 RSpec.shared_examples "TimePeriod" do
   class DumbTimePeriod < TimePeriod
     DURATION = 3.seconds
