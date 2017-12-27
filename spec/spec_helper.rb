@@ -1,4 +1,6 @@
 require "bundler/setup"
+require "pry"
+require "timecop"
 require "time_period"
 
 RSpec.configure do |config|
@@ -10,5 +12,9 @@ RSpec.configure do |config|
 
   config.expect_with :rspec do |c|
     c.syntax = :expect
+  end
+
+  config.around(:each) do |example|
+    Time.use_zone("UTC") { example.run }
   end
 end
