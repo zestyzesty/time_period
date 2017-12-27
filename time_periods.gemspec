@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Gregory Kohler"]
   spec.email         = ["gregory@zesty.com"]
 
-  spec.summary       = "Value objects for durations"
+  spec.summary       = "Convenient wrapper for ActiveSupport::Duration"
   spec.description   = "describe me later"
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"

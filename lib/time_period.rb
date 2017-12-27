@@ -14,7 +14,11 @@ class TimePeriod
   end
 
   def self.relative(n)
-    new(Time.zone.now + (duration * n))
+    n = n.to_i
+    relative_duration = (n.abs * duration)
+    relative_method = n.positive? ? :since : :ago
+
+    new(relative_duration.send(relative_method, Time.zone.now))
   end
 
   def self.next
