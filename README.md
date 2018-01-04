@@ -1,8 +1,11 @@
 # TimePeriod
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/time_period`. To experiment with that code, run `bin/console` for an interactive prompt.
+`TimePeriod` is a value object based around `ActiveSupport::Duration` which allows the user to more expressively describe notions such as `Week.this` or `Month.next`.
 
-TODO: Delete this and the text above, and describe your gem
+**TODO**:
+  - [ ] ORM adapters for duration-based scopes
+  - [ ] Include standardized parameterization to facilitate use in web requests
+  - [ ] Remove `ActiveSupport` dependency
 
 ## Installation
 
@@ -22,7 +25,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+**TODO**
 
 ## Development
 
@@ -32,7 +35,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/time_period. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/zestyzesty/time_period.
 
 ## License
 
