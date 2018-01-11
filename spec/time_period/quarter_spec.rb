@@ -1,7 +1,7 @@
 require "spec_helper"
 require "time_period/quarter"
 
-class TimePeriod
+module TimePeriod
   RSpec.describe Quarter do
     it_behaves_like "TimePeriod"
 

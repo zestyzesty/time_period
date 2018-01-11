@@ -1,7 +1,7 @@
 require "spec_helper"
 require "time_period/year"
 
-class TimePeriod
+module TimePeriod
   RSpec.describe Year do
     let(:dec26) { Date.new(2017, 12, 26) }
     let(:jan1) { Date.new(2017, 1, 1) }

@@ -1,7 +1,7 @@
-require "time_period"
+require_relative "./base"
 
-class TimePeriod
-  class RollingYear < self
+module TimePeriod
+  class RollingYear < Base
     DURATION = 1.year
   end
 end

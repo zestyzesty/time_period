@@ -1,7 +1,7 @@
 require "spec_helper"
 require "time_period/week"
 
-class TimePeriod
+module TimePeriod
   RSpec.describe Week do
     let(:tue_dec26) { Date.new(2017, 12, 26) }
     let(:mon_dec25) { Date.new(2017, 12, 25) }

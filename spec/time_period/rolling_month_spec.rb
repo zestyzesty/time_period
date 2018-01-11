@@ -1,7 +1,7 @@
 require "spec_helper"
 require "time_period/rolling_month"
 
-class TimePeriod
+module TimePeriod
   RSpec.describe RollingMonth do
     it_behaves_like "TimePeriod"
     it_behaves_like "rolling TimePeriod"

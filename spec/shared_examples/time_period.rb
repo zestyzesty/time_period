@@ -1,5 +1,5 @@
 RSpec.shared_examples "TimePeriod" do
-  class DumbTimePeriod < TimePeriod
+  class DumbTimePeriod < TimePeriod::Base
     DURATION = 3.seconds
   end
 

@@ -1,7 +1,7 @@
-require "time_period"
+require_relative "./base"
 
-class TimePeriod
-  class Quarter < self
+module TimePeriod
+  class Quarter < Base
     DURATION = 3.month
 
     def initialize(beginning)

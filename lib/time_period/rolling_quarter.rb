@@ -1,7 +1,7 @@
-require "time_period"
+require_relative "./base"
 
-class TimePeriod
-  class RollingQuarter < self
+module TimePeriod
+  class RollingQuarter < Base
     DURATION = 3.month
   end
 end

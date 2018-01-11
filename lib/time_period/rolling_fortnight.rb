@@ -1,7 +1,7 @@
-require "time_period"
+require_relative "./base"
 
-class TimePeriod
-  class RollingFortnight < self
+module TimePeriod
+  class RollingFortnight < Base
     DURATION = 2.week
   end
 end

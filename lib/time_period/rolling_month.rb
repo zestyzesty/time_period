@@ -1,7 +1,7 @@
-require "time_period"
+require_relative "./base"
 
-class TimePeriod
-  class RollingMonth < self
+module TimePeriod
+  class RollingMonth < Base
     DURATION = 1.month
   end
 end

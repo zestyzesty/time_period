@@ -1,7 +1,7 @@
-require "time_period"
+require_relative "./base"
 
-class TimePeriod
-  class Week < self
+module TimePeriod
+  class Week < Base
     DURATION = 1.week
 
     def initialize(beginning)

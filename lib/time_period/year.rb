@@ -1,7 +1,7 @@
-require "time_period"
+require_relative "./base"
 
-class TimePeriod
-  class Year < self
+module TimePeriod
+  class Year < Base
     DURATION = 1.year
 
     def initialize(beginning)
